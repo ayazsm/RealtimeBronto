@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-24T15:40:26 IST" name="Suite" finished-at="2021-08-24T15:40:41 IST" duration-ms="14808">
+    <groups>
+    </groups>
+    <test started-at="2021-08-24T15:40:26 IST" name="Test" finished-at="2021-08-24T15:40:41 IST" duration-ms="14808">
+      <class name="test.DoctorsignupTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:test.DoctorsignupTest@618425b5]" started-at="2021-08-24T15:40:32 IST" name="initialize" finished-at="2021-08-24T15:40:40 IST" duration-ms="8338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="test_doctorSignup()[pri:0, instance:test.DoctorsignupTest@618425b5]" started-at="2021-08-24T15:40:40 IST" name="test_doctorSignup" finished-at="2021-08-24T15:40:41 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_doctorSignup -->
+      </class> <!-- test.DoctorsignupTest -->
+      <class name="test.DoctorLoginTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:test.DoctorLoginTest@18d87d80]" started-at="2021-08-24T15:40:26 IST" name="initialize" finished-at="2021-08-24T15:40:32 IST" duration-ms="5808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="test_DoctorProfilePage()[pri:0, instance:test.DoctorLoginTest@18d87d80]" started-at="2021-08-24T15:40:32 IST" name="test_DoctorProfilePage" finished-at="2021-08-24T15:40:32 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_DoctorProfilePage -->
+      </class> <!-- test.DoctorLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
