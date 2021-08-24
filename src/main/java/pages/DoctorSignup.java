@@ -41,7 +41,7 @@ public class DoctorSignup extends TestBase {
 	//Enter Doctor Mobile 
 	public void doctormobile(String strentermobile) {
 
-		driver.findElement(By.name("mobile")).sendKeys(strentermobile);
+		driver.findElement(By.name("bile")).sendKeys(strentermobile);
 	}
 
 
