@@ -2,12 +2,10 @@
 
 <html>
   <head>
-  <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery.min.js"></script>
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -24,7 +22,6 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
-      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
       <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
@@ -162,11 +159,8 @@
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;listeners&gt;
-    &lt;listener class-name=&quot;utils.Report.ExtentReporterNG&quot;/&gt;
-  &lt;/listeners&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;none&quot; name=&quot;Suite&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;pages.TestBase&quot;/&gt;
@@ -215,7 +209,7 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_doctorSignup')
 data.setCell(0, 2, 'test.DoctorsignupTest')
-data.setCell(0, 3, 412);
+data.setCell(0, 3, 408);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'test_DoctorProfilePage')
 data.setCell(1, 2, 'test.DoctorLoginTest')
@@ -224,7 +218,7 @@ window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 646 ms</span>
+              <span class="suite-total-time">Total running time: 642 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -257,31 +251,30 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_DoctorProfilePage</span>
-                <span class="method-start">8984 ms</span>
+                <span class="method-start">8396 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">TeardownTest</span>
-                <span class="method-start">9221 ms</span>
+                <span class="method-start">8630 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.DoctorsignupTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">9494 ms</span>
+                <span class="method-start">9100 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_doctorSignup</span>
-                <span class="method-start">17176 ms</span>
+                <span class="method-start">17278 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">TeardownTest</span>
-                <span class="method-start">17589 ms</span>
+                <span class="method-start">17686 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
-<script type="text/javascript" src="testng-reports2.js"></script>
 </html>
