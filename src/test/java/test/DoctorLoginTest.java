@@ -23,10 +23,5 @@ public class DoctorLoginTest extends TestBase {
 		objLogin.loginToPage(prop.getProperty("uname"),prop.getProperty("pwd"));
 		
 		
-	}
-   
-  
-   
-	
-	
+	}	
 }

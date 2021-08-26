@@ -2,29 +2,37 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-24T15:40:26 IST" name="Suite" finished-at="2021-08-24T15:40:41 IST" duration-ms="14808">
+  <suite started-at="2021-08-26T10:21:00 IST" name="Suite" finished-at="2021-08-26T10:21:16 IST" duration-ms="16364">
     <groups>
     </groups>
-    <test started-at="2021-08-24T15:40:26 IST" name="Test" finished-at="2021-08-24T15:40:41 IST" duration-ms="14808">
+    <test started-at="2021-08-26T10:21:00 IST" name="Test" finished-at="2021-08-26T10:21:16 IST" duration-ms="16364">
       <class name="test.DoctorsignupTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:test.DoctorsignupTest@618425b5]" started-at="2021-08-24T15:40:32 IST" name="initialize" finished-at="2021-08-24T15:40:40 IST" duration-ms="8338" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:test.DoctorsignupTest@543588e6]" started-at="2021-08-26T10:21:00 IST" name="initialize" finished-at="2021-08-26T10:21:07 IST" duration-ms="7396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="test_doctorSignup()[pri:0, instance:test.DoctorsignupTest@618425b5]" started-at="2021-08-24T15:40:40 IST" name="test_doctorSignup" finished-at="2021-08-24T15:40:41 IST" duration-ms="410" status="PASS">
+        <test-method signature="test_doctorSignup()[pri:0, instance:test.DoctorsignupTest@543588e6]" started-at="2021-08-26T10:21:07 IST" name="test_doctorSignup" finished-at="2021-08-26T10:21:08 IST" duration-ms="491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_doctorSignup -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:test.DoctorsignupTest@543588e6]" started-at="2021-08-26T10:21:08 IST" name="TeardownTest" finished-at="2021-08-26T10:21:08 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
       </class> <!-- test.DoctorsignupTest -->
       <class name="test.DoctorLoginTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:test.DoctorLoginTest@18d87d80]" started-at="2021-08-24T15:40:26 IST" name="initialize" finished-at="2021-08-24T15:40:32 IST" duration-ms="5808" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:test.DoctorLoginTest@f5acb9d]" started-at="2021-08-26T10:21:08 IST" name="initialize" finished-at="2021-08-26T10:21:16 IST" duration-ms="7628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="test_DoctorProfilePage()[pri:0, instance:test.DoctorLoginTest@18d87d80]" started-at="2021-08-24T15:40:32 IST" name="test_DoctorProfilePage" finished-at="2021-08-24T15:40:32 IST" duration-ms="226" status="PASS">
+        <test-method signature="test_DoctorProfilePage()[pri:0, instance:test.DoctorLoginTest@f5acb9d]" started-at="2021-08-26T10:21:16 IST" name="test_DoctorProfilePage" finished-at="2021-08-26T10:21:16 IST" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_DoctorProfilePage -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:test.DoctorLoginTest@f5acb9d]" started-at="2021-08-26T10:21:16 IST" name="TeardownTest" finished-at="2021-08-26T10:21:16 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
       </class> <!-- test.DoctorLoginTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

@@ -48,8 +48,6 @@ public class DoctorLoginpage extends TestBase{
 
 	        this.clickOnLogin(); 
 	        
-	        
-	 
 		}
-
+		
 }

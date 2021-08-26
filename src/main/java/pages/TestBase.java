@@ -40,15 +40,15 @@ public class TestBase {
 	 
 	 }
 	 
-//	@AfterClass
-//	 //Test cleanup
-//	 public void TeardownTest()
-//	 
-//	    {
-//		 
-//	        driver.quit();
-//	        
-//	    }
+	@AfterClass
+	 //Test cleanup
+	 public void TeardownTest()
+	 
+	    {
+		 
+	        driver.quit();
+	        
+	    }
 	
 	public void config(){
 		try {
