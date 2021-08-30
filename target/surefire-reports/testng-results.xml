@@ -1,39 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="2" passed="2" failed="0" skipped="0">
+<testng-results total="8" passed="6" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-27T10:27:20Z" name="Suite" finished-at="2021-08-27T10:27:34Z" duration-ms="13761">
+  <suite started-at="2021-08-30T13:16:39Z" name="Suite" finished-at="2021-08-30T13:17:29Z" duration-ms="49632">
     <groups>
     </groups>
-    <test started-at="2021-08-27T10:27:20Z" name="Test" finished-at="2021-08-27T10:27:34Z" duration-ms="13761">
+    <test started-at="2021-08-30T13:16:39Z" name="Test" finished-at="2021-08-30T13:17:21Z" duration-ms="41072">
       <class name="test.DoctorsignupTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:test.DoctorsignupTest@2d778add]" started-at="2021-08-27T15:57:20Z" name="initialize" finished-at="2021-08-27T15:57:27Z" duration-ms="6204" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:test.DoctorsignupTest@37e4d7bb]" started-at="2021-08-30T18:46:39Z" name="initialize" finished-at="2021-08-30T18:46:42Z" duration-ms="2322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="test_doctorSignup()[pri:0, instance:test.DoctorsignupTest@2d778add]" started-at="2021-08-27T15:57:27Z" name="test_doctorSignup" finished-at="2021-08-27T15:57:27Z" duration-ms="509" status="PASS">
+        <test-method signature="test_doctorSignup()[pri:0, instance:test.DoctorsignupTest@37e4d7bb]" started-at="2021-08-30T18:46:42Z" name="test_doctorSignup" finished-at="2021-08-30T18:46:58Z" duration-ms="16393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_doctorSignup -->
-        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:test.DoctorsignupTest@2d778add]" started-at="2021-08-27T15:57:27Z" name="TeardownTest" finished-at="2021-08-27T15:57:27Z" duration-ms="255" status="PASS">
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:test.DoctorsignupTest@37e4d7bb]" started-at="2021-08-30T18:46:58Z" name="TeardownTest" finished-at="2021-08-30T18:46:58Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TeardownTest -->
       </class> <!-- test.DoctorsignupTest -->
       <class name="test.DoctorLoginTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:test.DoctorLoginTest@73302995]" started-at="2021-08-27T15:57:27Z" name="initialize" finished-at="2021-08-27T15:57:34Z" duration-ms="6286" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:test.DoctorLoginTest@31add175]" started-at="2021-08-30T18:46:58Z" name="initialize" finished-at="2021-08-30T18:47:03Z" duration-ms="5200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="test_DoctorProfilePage()[pri:0, instance:test.DoctorLoginTest@73302995]" started-at="2021-08-27T15:57:34Z" name="test_DoctorProfilePage" finished-at="2021-08-27T15:57:34Z" duration-ms="253" status="PASS">
+        <test-method signature="test_DoctorProfilePage()[pri:0, instance:test.DoctorLoginTest@31add175]" started-at="2021-08-30T18:47:03Z" name="test_DoctorProfilePage" finished-at="2021-08-30T18:47:21Z" duration-ms="17145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_DoctorProfilePage -->
-        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:test.DoctorLoginTest@73302995]" started-at="2021-08-27T15:57:34Z" name="TeardownTest" finished-at="2021-08-27T15:57:34Z" duration-ms="242" status="PASS">
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:test.DoctorLoginTest@31add175]" started-at="2021-08-30T18:47:21Z" name="TeardownTest" finished-at="2021-08-30T18:47:21Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TeardownTest -->
       </class> <!-- test.DoctorLoginTest -->
     </test> <!-- Test -->
+    <test started-at="2021-08-30T13:16:39Z" name="ChromeTest" finished-at="2021-08-30T13:17:29Z" duration-ms="49632">
+      <class name="test.admintest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:test.admintest@1f53a5dc]" started-at="2021-08-30T18:46:39Z" name="initialize" finished-at="2021-08-30T18:46:42Z" duration-ms="2322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="test_adminpage()[pri:0, instance:test.admintest@1f53a5dc]" started-at="2021-08-30T18:46:42Z" name="test_adminpage" finished-at="2021-08-30T18:46:53Z" duration-ms="11078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_adminpage -->
+        <test-method signature="test_admindashboard()[pri:0, instance:test.admintest@1f53a5dc]" started-at="2021-08-30T18:47:07Z" name="test_admindashboard" finished-at="2021-08-30T18:47:07Z" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_admindashboard -->
+        <test-method signature="test_adminsupport()[pri:0, instance:test.admintest@1f53a5dc]" started-at="2021-08-30T18:47:09Z" name="test_adminsupport" finished-at="2021-08-30T18:47:09Z" duration-ms="226" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=92.0.4515.159)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F2TGJ1K', ip: '10.10.0.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Codet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60988}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 680ad92044c2909c5d9d8c76646f1478]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=92.0.4515.159)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F2TGJ1K', ip: '10.10.0.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Codet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60988}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 680ad92044c2909c5d9d8c76646f1478
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at pages.AdminSupport.enterUsername(AdminSupport.java:28)
+	at pages.AdminSupport.submit(AdminSupport.java:89)
+	at test.admintest.test_adminsupport(admintest.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_adminsupport -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:test.admintest@1f53a5dc]" started-at="2021-08-30T18:47:09Z" name="TeardownTest" finished-at="2021-08-30T18:47:09Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- test.admintest -->
+      <class name="test.supporttest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:test.supporttest@12d2ce03]" started-at="2021-08-30T18:46:53Z" name="initialize" finished-at="2021-08-30T18:46:56Z" duration-ms="3409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="test_supportpage()[pri:0, instance:test.supporttest@12d2ce03]" started-at="2021-08-30T18:46:56Z" name="test_supportpage" finished-at="2021-08-30T18:47:07Z" duration-ms="11053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_supportpage -->
+        <test-method signature="test_TicketInformation()[pri:0, instance:test.supporttest@12d2ce03]" started-at="2021-08-30T18:47:07Z" name="test_TicketInformation" finished-at="2021-08-30T18:47:09Z" duration-ms="1302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_TicketInformation -->
+        <test-method signature="test_Doctorprofieviewing()[pri:0, instance:test.supporttest@12d2ce03]" started-at="2021-08-30T18:47:09Z" name="test_Doctorprofieviewing" finished-at="2021-08-30T18:47:29Z" duration-ms="20011" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="root"]/div/main/div/div/div[2]/div/div/div/div/div[1]/table/tbody/tr[5]/td[6]/button"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F2TGJ1K', ip: '10.10.0.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Codet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ecfe42c72a5a304c654959669ce19d41
+*** Element info: {Using=xpath, value=//*[@id="root"]/div/main/div/div/div[2]/div/div/div/div/div[1]/table/tbody/tr[5]/td[6]/button}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="root"]/div/main/div/div/div[2]/div/div/div/div/div[1]/table/tbody/tr[5]/td[6]/button"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F2TGJ1K', ip: '10.10.0.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Codet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ecfe42c72a5a304c654959669ce19d41
+*** Element info: {Using=xpath, value=//*[@id="root"]/div/main/div/div/div[2]/div/div/div/div/div[1]/table/tbody/tr[5]/td[6]/button}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.SupportDoctorProfileChecking.doctorProfile(SupportDoctorProfileChecking.java:21)
+	at pages.SupportDoctorProfileChecking.clickonDoctorprofileButton(SupportDoctorProfileChecking.java:31)
+	at test.supporttest.test_Doctorprofieviewing(supporttest.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Doctorprofieviewing -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:test.supporttest@12d2ce03]" started-at="2021-08-30T18:47:29Z" name="TeardownTest" finished-at="2021-08-30T18:47:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- test.supporttest -->
+    </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>

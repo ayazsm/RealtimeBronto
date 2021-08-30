@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="15.148" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="50.725" tests="8" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="16.0.2+7-67"/>
@@ -24,9 +24,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Codet\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf344515812972647291.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Codet\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6452995623042327546.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\Codet\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Codet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin/server;C:/Users/Codet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\PuTTY\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\dotnet\;&quot;C:\chromedriver.exe;&quot;;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-16.0.2\bin;C:\Program Files\apache-maven-3.8.1\bin;C:\Users\Codet\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Codet\AppData\Local\Programs\Python\Python36\;C:\Users\Codet\AppData\Local\Microsoft\WindowsApps;C:\Users\Codet\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Codet\AppData\Roaming\npm;C:\Program Files\Azure Data Studio\bin;C:\Users\Codet\.dotnet\tools;C:\Program Files\Java\jdk-16.0.2;C:\Program Files\Java\jdk-16.0.2\bin;C:\Program Files\apache-maven-3.8.1\bin;;C:\Users\Codet\OneDrive\Desktop;;."/>
+    <property name="java.library.path" value="C:\Users\Codet\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Codet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin/server;C:/Users/Codet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\PuTTY\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\dotnet\;&quot;C:\chromedriver.exe;&quot;;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-16.0.2\bin;C:\Program Files\apache-maven-3.8.1\bin;C:\Users\Codet\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Codet\AppData\Local\Programs\Python\Python36\;C:\Users\Codet\AppData\Local\Microsoft\WindowsApps;C:\Users\Codet\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Codet\AppData\Roaming\npm;C:\Program Files\Azure Data Studio\bin;C:\Users\Codet\.dotnet\tools;C:\Program Files\Java\jdk-16.0.2;C:\Program Files\Java\jdk-16.0.2\bin;C:\Program Files\apache-maven-3.8.1\bin;;C:\Windows\System32;;."/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="60.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -55,6 +55,40 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="test_doctorSignup" classname="test.DoctorsignupTest" time="0.508"/>
-  <testcase name="test_DoctorProfilePage" classname="test.DoctorLoginTest" time="0.253"/>
+  <testcase name="test_adminpage" classname="test.admintest" time="11.078"/>
+  <testcase name="test_doctorSignup" classname="test.DoctorsignupTest" time="1.906"/>
+  <testcase name="test_supportpage" classname="test.supporttest" time="3.946"/>
+  <testcase name="test_admindashboard" classname="test.admintest" time="0.119"/>
+  <testcase name="test_TicketInformation" classname="test.supporttest" time="1.302"/>
+  <testcase name="test_adminsupport" classname="test.admintest" time="0.329">
+    <failure message="element not interactable&#10;  (Session info: chrome=92.0.4515.159)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-F2TGJ1K&apos;, ip: &apos;10.10.0.78&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Codet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60988}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 680ad92044c2909c5d9d8c76646f1478" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=92.0.4515.159)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F2TGJ1K', ip: '10.10.0.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Codet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60988}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 680ad92044c2909c5d9d8c76646f1478
+	at test.admintest.test_adminsupport(admintest.java:49)
+</failure>
+    <system-out><![CDATA[08-30-2021 18:47:09 AdminSupport.java INFO  [TestNG] pages.TestBase 22 - Clicking On SUPPORT
+]]></system-out>
+  </testcase>
+  <testcase name="test_DoctorProfilePage" classname="test.DoctorLoginTest" time="11.449"/>
+  <testcase name="test_Doctorprofieviewing" classname="test.supporttest" time="20.01">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;root&quot;]/div/main/div/div/div[2]/div/div/div/div/div[1]/table/tbody/tr[5]/td[6]/button&quot;}&#10;  (Session info: chrome=92.0.4515.159)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-F2TGJ1K&apos;, ip: &apos;10.10.0.78&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Codet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ecfe42c72a5a304c654959669ce19d41&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;root&quot;]/div/main/div/div/div[2]/div/div/div/div/div[1]/table/tbody/tr[5]/td[6]/button}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="root"]/div/main/div/div/div[2]/div/div/div/div/div[1]/table/tbody/tr[5]/td[6]/button"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F2TGJ1K', ip: '10.10.0.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Codet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ecfe42c72a5a304c654959669ce19d41
+*** Element info: {Using=xpath, value=//*[@id="root"]/div/main/div/div/div[2]/div/div/div/div/div[1]/table/tbody/tr[5]/td[6]/button}
+	at test.supporttest.test_Doctorprofieviewing(supporttest.java:46)
+</failure>
+    <system-out><![CDATA[08-30-2021 18:47:21 TestBase.java INFO  [TestNG] pages.TestBase 68 - ***************************  Browser is closed  **********************************
+]]></system-out>
+  </testcase>
 </testsuite>

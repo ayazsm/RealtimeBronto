@@ -13,9 +13,24 @@ public class DoctorLoginpage extends TestBase{
 	public DoctorLoginpage(WebDriver driver) {
 
 		this.driver = driver;
-		
+
 	}
 
+
+	//Doctor launching url
+	public void logindod() {
+
+		driver.get(prop.getProperty("url"));
+		log.info("Entering application URL");
+		log.warn("Hey this just a warning message");
+		log.fatal("Hey this is just fatal error message ");
+		log.debug("Hey this is debug message");
+
+		//To click Login button            
+		driver.findElement(By.xpath("/html//div[@id='root']//div[@class='jss1']/div[@class='jss2']//div[@class='MuiBox-root jss134']/button[@type='button']/span[@class='MuiButton-label']")).click();
+
+
+	}
 
 	//Enter With doctor email
 	public void enterEmail(String strenterEmail){
@@ -38,11 +53,16 @@ public class DoctorLoginpage extends TestBase{
 	//click on login button
 	public void clickOnLogin() {
 
-		driver.findElement(By.xpath("/html//div[@id='root']//div[@class='jss1']/div[@class='jss2']/div[@class='jss3']/div[@class='jss5']//div[@class='MuiBox-root jss174']/div/button[1]/span[@class='MuiButton-label']")).click();
+		driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div/div[1]/div/div/div[2]/div/div/div/div/button[1]/span[1]")).click();
 
 	}
 
 	public void loginToPage(String strenterEmail,String strenterPassword){
+
+		//Navigate to Bronto Page
+		this.logindod();
+
+
 
 
 		//Fill user name

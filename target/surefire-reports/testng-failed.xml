@@ -1,22 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="none" name="Failed suite [Suite]" verbose="0">
+<suite parallel="tests" name="Failed suite [Suite]" verbose="0">
   <listeners>
     <listener class-name="utils.Report.ExtentReporterNG"/>
   </listeners>
-  <test parallel="none" name="Test(failed)">
+  <test parallel="tests" name="ChromeTest(failed)">
     <classes>
-      <class name="test.DoctorLoginTest">
-        <methods>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- test.DoctorLoginTest -->
       <class name="test.DoctorsignupTest">
         <methods>
           <include name="initialize"/>
-          <include name="test_doctorSignup"/>
+          <include name="TeardownTest"/>
         </methods>
       </class> <!-- test.DoctorsignupTest -->
+      <class name="test.supporttest">
+        <methods>
+          <include name="test_Doctorprofieviewing"/>
+          <include name="initialize"/>
+          <include name="TeardownTest"/>
+        </methods>
+      </class> <!-- test.supporttest -->
+      <class name="test.admintest">
+        <methods>
+          <include name="test_adminsupport"/>
+          <include name="initialize"/>
+          <include name="TeardownTest"/>
+        </methods>
+      </class> <!-- test.admintest -->
+      <class name="test.DoctorLoginTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="TeardownTest"/>
+        </methods>
+      </class> <!-- test.DoctorLoginTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

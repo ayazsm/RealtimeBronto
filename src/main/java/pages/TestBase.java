@@ -8,7 +8,7 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
+
 
 
 import org.openqa.selenium.WebDriver;
@@ -52,16 +52,9 @@ public class TestBase {
 		//Implicit wait
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
-		//To open Bronto Application
-		driver.get(prop.getProperty("url"));
-		log.info("Entering application URL");
-		log.warn("Hey this just a warning message");
-		log.fatal("Hey this is just fatal error message ");
-		log.debug("Hey this is debug message");
-
-		//To click Login button            
-		driver.findElement(By.xpath("/html//div[@id='root']//div[@class='jss1']/div[@class='jss2']//div[@class='MuiBox-root jss134']/button[@type='button']/span[@class='MuiButton-label']")).click();
-
+		
+		
+		
 	}
 
 	@AfterClass
@@ -70,7 +63,7 @@ public class TestBase {
 
 	{
 
-		driver.quit();
+		//driver.quit();
 		
 		log.info("***************************  Browser is closed  **********************************");
 

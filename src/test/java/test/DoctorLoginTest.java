@@ -18,7 +18,7 @@ public class DoctorLoginTest extends TestBase {
 		//Create Login Pageobject
 		objLogin = new DoctorLoginpage(driver);
 		
-		
+		//objLogin.logindod();
 		//Login to Application
 		objLogin.loginToPage(prop.getProperty("uname"),prop.getProperty("pwd"));
 		System.out.println("Doctor Entering a Valid EmailId ");

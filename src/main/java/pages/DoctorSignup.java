@@ -12,6 +12,25 @@ public class DoctorSignup extends TestBase {
 		this.driver = driver;
 	}
 
+
+
+	//Launching Signup URL
+	public void launchingsignupurl() {
+
+		driver.get(prop.getProperty("url"));
+		log.info("Entering application URL");
+		log.warn("Hey this Doctor Signup page message ");
+		log.fatal("Hey this is a Doctor signup page okk");
+		log.debug("Hey this is debug message");
+
+		//To click Login button            
+		driver.findElement(By.xpath("/html//div[@id='root']//div[@class='jss1']/div[@class='jss2']//div[@class='MuiBox-root jss134']/button[@type='button']/span[@class='MuiButton-label']")).click();
+
+
+
+	}
+
+
 	//click on Signup link
 	public void signupnow(){
 
@@ -42,8 +61,8 @@ public class DoctorSignup extends TestBase {
 	public void doctormobile(String strentermobile) {
 
 		driver.findElement(By.name("mobile")).sendKeys(strentermobile);
-		
-	
+
+
 	}
 
 
@@ -51,24 +70,28 @@ public class DoctorSignup extends TestBase {
 	public void clickSignup(String strenterName,String strenterEmail,String strenterpassword,String strentermobile){
 
 
+		//launching URL for Signup Doctor
+		this.launchingsignupurl();
+
+
 		//Click on Signup button
 		this.signupnow(); 
-		
-		
+
+
 		//Enter Doctor Name 
-        this.doctorname(strenterName);
-        
-        
-      //Enter Doctor Email 
-        this.doctoremail(strenterEmail);
-        
-        
-       //Enter Doctor Password      
-        this.doctorpassword(strenterpassword);
-        
-        
-        //Enter Doctor PhoneNumber
-        this.doctormobile(strentermobile);
+		this.doctorname(strenterName);
+
+
+		//Enter Doctor Email 
+		this.doctoremail(strenterEmail);
+
+
+		//Enter Doctor Password      
+		this.doctorpassword(strenterpassword);
+
+
+		//Enter Doctor PhoneNumber
+		this.doctormobile(strentermobile);
 
 	}
 
