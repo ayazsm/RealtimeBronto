@@ -10,8 +10,6 @@
 			<class name="pages.TestBase" />
 			<class name="test.DoctorsignupTest" />
 			<class name="test.DoctorLoginTest" />
-
-
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

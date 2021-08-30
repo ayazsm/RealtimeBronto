@@ -21,7 +21,8 @@ public class DoctorLoginTest extends TestBase {
 		
 		//Login to Application
 		objLogin.loginToPage(prop.getProperty("uname"),prop.getProperty("pwd"));
-		
+		System.out.println("Doctor Entering a Valid EmailId ");
+		System.out.println("Doctor Entering a Valid Password");
 		
 	}	
 }

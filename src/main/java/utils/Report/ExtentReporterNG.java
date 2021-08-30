@@ -33,7 +33,7 @@ public class ExtentReporterNG implements IReporter {
 				buildTestNodes(context.getPassedTests(), LogStatus.PASS);
 				buildTestNodes(context.getFailedTests(), LogStatus.FAIL);
 				buildTestNodes(context.getSkippedTests(), LogStatus.SKIP);
-				buildTestNodes(context.getHost(),LogStatus.INFO);
+				//buildTestNodes(context.getHost(),LogStatus.INFO);
 
 			}
 		}
@@ -42,10 +42,7 @@ public class ExtentReporterNG implements IReporter {
 		extent.close();
 	}
 
-	private void buildTestNodes(String host, LogStatus info) {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
 	private void buildTestNodes(IResultMap tests, LogStatus status) {
 		ExtentTest test;

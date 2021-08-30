@@ -10,8 +10,16 @@
         <methods>
           <include name="initialize"/>
           <include name="test_doctorSignup"/>
+          <include name="TeardownTest"/>
         </methods>
       </class> <!-- test.DoctorsignupTest -->
+      <class name="test.DoctorLoginTest">
+        <methods>
+          <include name="test_DoctorProfilePage"/>
+          <include name="initialize"/>
+          <include name="TeardownTest"/>
+        </methods>
+      </class> <!-- test.DoctorLoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

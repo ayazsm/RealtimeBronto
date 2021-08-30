@@ -42,9 +42,9 @@ public class DoctorSignup extends TestBase {
 	public void doctormobile(String strentermobile) {
 
 		driver.findElement(By.name("mobile")).sendKeys(strentermobile);
+		
+	
 	}
-
-
 
 
 
@@ -63,8 +63,7 @@ public class DoctorSignup extends TestBase {
         this.doctoremail(strenterEmail);
         
         
-       //Enter Doctor Password
-        
+       //Enter Doctor Password      
         this.doctorpassword(strenterpassword);
         
         
@@ -73,7 +72,6 @@ public class DoctorSignup extends TestBase {
 
 	}
 
-	
 
 }
 

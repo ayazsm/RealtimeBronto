@@ -2,34 +2,34 @@
 <testng-results total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-25T04:48:22Z" name="Suite" finished-at="2021-08-25T04:48:49Z" duration-ms="27023">
+  <suite started-at="2021-08-27T10:27:20Z" name="Suite" finished-at="2021-08-27T10:27:34Z" duration-ms="13761">
     <groups>
     </groups>
-    <test started-at="2021-08-25T04:48:22Z" name="Test" finished-at="2021-08-25T04:48:49Z" duration-ms="27023">
+    <test started-at="2021-08-27T10:27:20Z" name="Test" finished-at="2021-08-27T10:27:34Z" duration-ms="13761">
       <class name="test.DoctorsignupTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:test.DoctorsignupTest@56dc1551]" started-at="2021-08-25T10:18:22Z" name="initialize" finished-at="2021-08-25T10:18:37Z" duration-ms="15027" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:test.DoctorsignupTest@2d778add]" started-at="2021-08-27T15:57:20Z" name="initialize" finished-at="2021-08-27T15:57:27Z" duration-ms="6204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="test_doctorSignup()[pri:0, instance:test.DoctorsignupTest@56dc1551]" started-at="2021-08-25T10:18:37Z" name="test_doctorSignup" finished-at="2021-08-25T10:18:38Z" duration-ms="1089" status="PASS">
+        <test-method signature="test_doctorSignup()[pri:0, instance:test.DoctorsignupTest@2d778add]" started-at="2021-08-27T15:57:27Z" name="test_doctorSignup" finished-at="2021-08-27T15:57:27Z" duration-ms="509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_doctorSignup -->
-        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:test.DoctorsignupTest@56dc1551]" started-at="2021-08-25T10:18:38Z" name="TeardownTest" finished-at="2021-08-25T10:18:39Z" duration-ms="971" status="PASS">
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:test.DoctorsignupTest@2d778add]" started-at="2021-08-27T15:57:27Z" name="TeardownTest" finished-at="2021-08-27T15:57:27Z" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TeardownTest -->
       </class> <!-- test.DoctorsignupTest -->
       <class name="test.DoctorLoginTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:test.DoctorLoginTest@102cec62]" started-at="2021-08-25T10:18:39Z" name="initialize" finished-at="2021-08-25T10:18:48Z" duration-ms="9137" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:test.DoctorLoginTest@73302995]" started-at="2021-08-27T15:57:27Z" name="initialize" finished-at="2021-08-27T15:57:34Z" duration-ms="6286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="test_DoctorProfilePage()[pri:0, instance:test.DoctorLoginTest@102cec62]" started-at="2021-08-25T10:18:48Z" name="test_DoctorProfilePage" finished-at="2021-08-25T10:18:48Z" duration-ms="270" status="PASS">
+        <test-method signature="test_DoctorProfilePage()[pri:0, instance:test.DoctorLoginTest@73302995]" started-at="2021-08-27T15:57:34Z" name="test_DoctorProfilePage" finished-at="2021-08-27T15:57:34Z" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_DoctorProfilePage -->
-        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:test.DoctorLoginTest@102cec62]" started-at="2021-08-25T10:18:48Z" name="TeardownTest" finished-at="2021-08-25T10:18:49Z" duration-ms="522" status="PASS">
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:test.DoctorLoginTest@73302995]" started-at="2021-08-27T15:57:34Z" name="TeardownTest" finished-at="2021-08-27T15:57:34Z" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TeardownTest -->
