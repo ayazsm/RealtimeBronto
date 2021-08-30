@@ -42,7 +42,7 @@ public class TestBase {
 
 		config();
 
-		System.setProperty("webdriver.chrome.driver","/C:\\Users\\Codet\\eclipse-workspace\\BrontoDoctor\\drivers\\chromedriver\\chromedriver.exe/");
+		System.setProperty("webdriver.chrome.driver","drivers\\chromedriver\\chromedriver.exe");
 		driver = new ChromeDriver(); 
 		log.info("Launching chrome browser");
 
