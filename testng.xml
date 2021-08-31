@@ -8,17 +8,11 @@
 	<test name="Test">
 		<classes>
 			<class name="pages.TestBase" />
-			<class name="test.DoctorsignupTest" />
+		    <class name="test.DoctorsignupTest" />
 			<class name="test.DoctorLoginTest" />
-		</classes>
-	</test>
-	<test name="ChromeTest">
-		<classes>
 			<class name="test.admintest" />
 			<class name="test.supporttest" />
 		</classes>
-
-
-
-	</test> <!-- Test -->
+	</test>
+	
 </suite> <!-- Suite -->

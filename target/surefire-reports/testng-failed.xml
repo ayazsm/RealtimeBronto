@@ -4,17 +4,10 @@
   <listeners>
     <listener class-name="utils.Report.ExtentReporterNG"/>
   </listeners>
-  <test parallel="tests" name="ChromeTest(failed)">
+  <test parallel="tests" name="Test(failed)">
     <classes>
-      <class name="test.DoctorsignupTest">
-        <methods>
-          <include name="initialize"/>
-          <include name="TeardownTest"/>
-        </methods>
-      </class> <!-- test.DoctorsignupTest -->
       <class name="test.supporttest">
         <methods>
-          <include name="test_Doctorprofieviewing"/>
           <include name="initialize"/>
           <include name="TeardownTest"/>
         </methods>
@@ -26,6 +19,12 @@
           <include name="TeardownTest"/>
         </methods>
       </class> <!-- test.admintest -->
+      <class name="test.DoctorsignupTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="TeardownTest"/>
+        </methods>
+      </class> <!-- test.DoctorsignupTest -->
       <class name="test.DoctorLoginTest">
         <methods>
           <include name="initialize"/>
@@ -33,5 +32,5 @@
         </methods>
       </class> <!-- test.DoctorLoginTest -->
     </classes>
-  </test> <!-- ChromeTest(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

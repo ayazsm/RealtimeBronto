@@ -1,48 +1,53 @@
-2021-08-30 18:46:39,957  INFO [TestNG] TestBase:41 - *****************************Starting Test Cases**************************
-2021-08-30 18:46:39,957  INFO [TestNG] TestBase:41 - *****************************Starting Test Cases**************************
-2021-08-30 18:46:41,969  INFO [TestNG] TestBase:47 - Launching chrome browser
-2021-08-30 18:46:41,969  INFO [TestNG] TestBase:47 - Launching chrome browser
-2021-08-30 18:46:53,142  INFO [TestNG] TestBase:20 - Entering application URL
-2021-08-30 18:46:53,142  WARN [TestNG] TestBase:21 - Hey this just a warning message
-2021-08-30 18:46:53,142 FATAL [TestNG] TestBase:22 - Hey this is just fatal error message 
-2021-08-30 18:46:53,142 DEBUG [TestNG] TestBase:23 - Hey this is debug message
-2021-08-30 18:46:53,236  INFO [TestNG] TestBase:34 - Entering the email
-2021-08-30 18:46:53,305  INFO [TestNG] TestBase:45 - Entering the password
-2021-08-30 18:46:53,355  INFO [TestNG] TestBase:55 - Clicking on Admin Login
-2021-08-30 18:46:53,355  INFO [TestNG] TestBase:41 - *****************************Starting Test Cases**************************
-2021-08-30 18:46:56,601  INFO [TestNG] TestBase:47 - Launching chrome browser
-2021-08-30 18:46:57,957  INFO [TestNG] TestBase:21 - Entering application URL
-2021-08-30 18:46:57,957  WARN [TestNG] TestBase:22 - Hey this Doctor Signup page message 
-2021-08-30 18:46:57,957 FATAL [TestNG] TestBase:23 - Hey this is a Doctor signup page okk
-2021-08-30 18:46:57,958 DEBUG [TestNG] TestBase:24 - Hey this is debug message
-2021-08-30 18:46:58,670  INFO [TestNG] TestBase:68 - ***************************  Browser is closed  **********************************
-2021-08-30 18:46:58,671  INFO [TestNG] TestBase:41 - *****************************Starting Test Cases**************************
-2021-08-30 18:47:03,708  INFO [TestNG] TestBase:47 - Launching chrome browser
-2021-08-30 18:47:07,565  INFO [TestNG] TestBase:20 - Entering Support application URL
-2021-08-30 18:47:07,565  WARN [TestNG] TestBase:21 - Hey this just a warning message
-2021-08-30 18:47:07,565 FATAL [TestNG] TestBase:22 - Hey this is just fatal error message 
-2021-08-30 18:47:07,565 DEBUG [TestNG] TestBase:23 - Hey this is debug message
-2021-08-30 18:47:07,690  INFO [TestNG] TestBase:31 - Entering the Supporrt Person email
-2021-08-30 18:47:07,765  INFO [TestNG] TestBase:39 - Entering the Supporrt Person password
-2021-08-30 18:47:07,816  INFO [TestNG] TestBase:47 - click on Login Button
-2021-08-30 18:47:07,936  INFO [TestNG] TestBase:25 - This Element click on ROLE
-2021-08-30 18:47:09,238  INFO [TestNG] TestBase:21 - Ticket Information Dashboard visible
-2021-08-30 18:47:09,305  INFO [TestNG] TestBase:22 - Clicking On SUPPORT
-2021-08-30 18:47:09,566  INFO [TestNG] TestBase:68 - ***************************  Browser is closed  **********************************
-2021-08-30 18:47:20,720  INFO [TestNG] TestBase:24 - Entering application URL
-2021-08-30 18:47:20,721  WARN [TestNG] TestBase:25 - Hey this just a warning message
-2021-08-30 18:47:20,721 FATAL [TestNG] TestBase:26 - Hey this is just fatal error message 
-2021-08-30 18:47:20,721 DEBUG [TestNG] TestBase:27 - Hey this is debug message
-2021-08-30 18:47:20,913  INFO [TestNG] TestBase:41 - Entering the email
-2021-08-30 18:47:21,016  INFO [TestNG] TestBase:68 - ***************************  Browser is closed  **********************************
-2021-08-30 18:47:29,577  INFO [TestNG] TestBase:68 - ***************************  Browser is closed  **********************************
-2021-08-30 18:47:29,843 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
-2021-08-30 18:47:29,845 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
-2021-08-30 18:47:29,846 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2021-08-30 18:47:29,847 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2021-08-30 18:47:29,847 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Codet/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2021-08-30 18:47:30,002 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
-2021-08-30 18:47:30,003 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
-2021-08-30 18:47:30,003 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2021-08-30 18:47:30,003 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2021-08-30 18:47:30,003 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Codet/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-08-31 11:59:18,626  INFO [TestNG] TestBase:41 - *****************************Starting Test Cases**************************
+2021-08-31 11:59:20,375  INFO [TestNG] TestBase:47 - Launching chrome browser
+2021-08-31 11:59:24,692  INFO [TestNG] TestBase:21 - Entering application URL
+2021-08-31 11:59:24,693  WARN [TestNG] TestBase:22 - Hey this Doctor Signup page message 
+2021-08-31 11:59:24,693 FATAL [TestNG] TestBase:23 - Hey this is a Doctor signup page okk
+2021-08-31 11:59:24,693 DEBUG [TestNG] TestBase:24 - Hey this is debug message
+2021-08-31 11:59:25,671  INFO [TestNG] TestBase:68 - ***************************  Browser is closed  **********************************
+2021-08-31 11:59:25,672  INFO [TestNG] TestBase:41 - *****************************Starting Test Cases**************************
+2021-08-31 11:59:26,618  INFO [TestNG] TestBase:47 - Launching chrome browser
+2021-08-31 11:59:36,877  INFO [TestNG] TestBase:24 - Entering application URL
+2021-08-31 11:59:36,877  WARN [TestNG] TestBase:25 - Hey this just a warning message
+2021-08-31 11:59:36,877 FATAL [TestNG] TestBase:26 - Hey this is just fatal error message 
+2021-08-31 11:59:36,877 DEBUG [TestNG] TestBase:27 - Hey this is debug message
+2021-08-31 11:59:37,133  INFO [TestNG] TestBase:41 - Entering the email
+2021-08-31 11:59:37,722  INFO [TestNG] TestBase:68 - ***************************  Browser is closed  **********************************
+2021-08-31 11:59:37,722  INFO [TestNG] TestBase:41 - *****************************Starting Test Cases**************************
+2021-08-31 11:59:38,493  INFO [TestNG] TestBase:47 - Launching chrome browser
+2021-08-31 11:59:42,249  INFO [TestNG] TestBase:20 - Entering application URL
+2021-08-31 11:59:42,249  WARN [TestNG] TestBase:21 - Hey this just a warning message
+2021-08-31 11:59:42,249 FATAL [TestNG] TestBase:22 - Hey this is just fatal error message 
+2021-08-31 11:59:42,249 DEBUG [TestNG] TestBase:23 - Hey this is debug message
+2021-08-31 11:59:42,329  INFO [TestNG] TestBase:34 - Entering the email
+2021-08-31 11:59:42,385  INFO [TestNG] TestBase:45 - Entering the password
+2021-08-31 11:59:42,439  INFO [TestNG] TestBase:55 - Clicking on Admin Login
+2021-08-31 11:59:42,621  INFO [TestNG] TestBase:41 - *****************************Starting Test Cases**************************
+2021-08-31 11:59:44,200  INFO [TestNG] TestBase:47 - Launching chrome browser
+2021-08-31 11:59:48,736  INFO [TestNG] TestBase:20 - Entering Support application URL
+2021-08-31 11:59:48,737  WARN [TestNG] TestBase:21 - Hey this just a warning message
+2021-08-31 11:59:48,737 FATAL [TestNG] TestBase:22 - Hey this is just fatal error message 
+2021-08-31 11:59:48,737 DEBUG [TestNG] TestBase:23 - Hey this is debug message
+2021-08-31 11:59:48,861  INFO [TestNG] TestBase:31 - Entering the Supporrt Person email
+2021-08-31 11:59:48,942  INFO [TestNG] TestBase:39 - Entering the Supporrt Person password
+2021-08-31 11:59:49,010  INFO [TestNG] TestBase:47 - click on Login Button
+2021-08-31 11:59:49,334  INFO [TestNG] TestBase:25 - This Element click on ROLE
+2021-08-31 11:59:49,754  INFO [TestNG] TestBase:21 - Ticket Information Dashboard visible
+2021-08-31 11:59:50,139  INFO [TestNG] TestBase:22 - Clicking On SUPPORT
+2021-08-31 11:59:50,243  INFO [TestNG] TestBase:29 - Entering the Username of a Support Person
+2021-08-31 11:59:50,371  INFO [TestNG] TestBase:39 - Entering the Email
+2021-08-31 11:59:50,465  INFO [TestNG] TestBase:47 - Entering the PhoneNumber
+2021-08-31 11:59:50,551  INFO [TestNG] TestBase:57 - Entering the Password
+2021-08-31 11:59:51,099  INFO [TestNG] TestBase:68 - ***************************  Browser is closed  **********************************
+2021-08-31 11:59:51,195  INFO [TestNG] TestBase:22 - Click on Doctor Profile Viewing Button
+2021-08-31 11:59:51,855  INFO [TestNG] TestBase:68 - ***************************  Browser is closed  **********************************
+2021-08-31 11:59:52,026 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-08-31 11:59:52,028 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-08-31 11:59:52,029 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-08-31 11:59:52,030 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-08-31 11:59:52,031 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Codet/AppData/Local/Temp/surefire1673505300628643796/..%5C..%5C..%5C..%5C.m2%5Crepository%5Ccom%5Crelevantcodes%5Cextentreports%5C2.41.2%5Cextentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-08-31 11:59:52,215 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-08-31 11:59:52,215 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-08-31 11:59:52,215 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-08-31 11:59:52,216 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-08-31 11:59:52,216 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Codet/AppData/Local/Temp/surefire1673505300628643796/..%5C..%5C..%5C..%5C.m2%5Crepository%5Ccom%5Crelevantcodes%5Cextentreports%5C2.41.2%5Cextentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
