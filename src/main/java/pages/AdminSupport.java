@@ -21,6 +21,16 @@ public class AdminSupport extends TestBase {
 		driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[2]/div/div/div[2]/ul/div/div[5]/div[2]/span/p")).click();
 		log.info("Clicking On SUPPORT");
 	}
+	
+	
+	//Click on Create Support Element
+	public void createSupport() {
+		
+		driver.findElement(By.xpath("//*[@id=\"simple-tab-0\"]/span[1]")).click();
+		log.info("Click on Create Support");
+		
+	}
+	
 
 	//Entering the Username of a Support Person
 	public void enterUsername(String strenterUsername){
@@ -85,6 +95,9 @@ public class AdminSupport extends TestBase {
 		//click on Support
 		this.support();
 
+		
+		//clicking on Create Support 
+		this.createSupport();
 
 		//Enter the username
 		this.enterUsername(strenterUsername);
