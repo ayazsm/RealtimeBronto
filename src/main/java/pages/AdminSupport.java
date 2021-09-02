@@ -22,6 +22,16 @@ public class AdminSupport extends TestBase {
 		log.info("Clicking On SUPPORT");
 	}
 
+	//Click on Create Support Element
+	public void createSupport() {
+		
+		driver.findElement(By.xpath("//*[@id=\"simple-tab-0\"]/span[1]")).click();
+		log.info("Click on Create Support");
+		
+	}
+	
+	
+	
 	//Entering the Username of a Support Person
 	public void enterUsername(String strenterUsername){
 		//driver.findElement(By.name("email")).sendKeys(strenterEmail);
@@ -66,7 +76,7 @@ public class AdminSupport extends TestBase {
 	}
 
 	public void SelectRoleDropdown() {
-		driver.findElement(By.xpath("//*[@id=\"simple-tabpanel-0\"]/div/p/div/div[2]/div/div[5]/div[2]/div/select/option[4]")).click();
+		driver.findElement(By.xpath("//*[@id=\"simple-tabpanel-0\"]/div/p/div/div[2]/div/div[5]/div[2]/div/select/option[2]")).click();
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 	}
@@ -74,7 +84,7 @@ public class AdminSupport extends TestBase {
 	
 	public void clickonsubmi() {
 		
-		driver.findElement(By.xpath("//*[@id=\"simple-tabpanel-0\"]/div/p/div/div[2]/div/div[7]/div/button/span[1]")).click();
+		driver.findElement(By.xpath("//*[@id=\"simple-tabpanel-0\"]/div/p/div/div[2]/div/div[5]/div[2]/div/select/option[2]")).click();
 		
 	}
 
@@ -84,6 +94,10 @@ public class AdminSupport extends TestBase {
 
 		//click on Support
 		this.support();
+		
+		
+		//clicking on Create Support 
+		this.createSupport();
 
 
 		//Enter the username

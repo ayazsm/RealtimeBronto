@@ -73,7 +73,7 @@ public class admintest extends TestBase {
 
 		objsupport = new AdminSupport(driver);
 
-		objsupport.submit(prop.getProperty("Username"), prop.getProperty("supportEmail"), prop.getProperty("PhoneNo"), prop.getProperty("supportPassword"));
+		objsupport.submit(prop.getProperty("DoctorSupportUsername"), prop.getProperty("DoctorSupportsupportEmail"), prop.getProperty("DoctorSupportPhoneNo"), prop.getProperty("DoctorSupportPassword"));
 		
 		File src5 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src5, new File("screenshots//screenshot5.png"));
@@ -86,9 +86,6 @@ public class admintest extends TestBase {
 		System.out.println("Entering Support PhoneNo");
 		System.out.println("Entering Support password");
 
-
 	}
-
-
 
 }

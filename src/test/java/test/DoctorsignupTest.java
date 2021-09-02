@@ -30,7 +30,7 @@ public class DoctorsignupTest extends TestBase {
 		objSign = new DoctorSignup(driver);
 
 		//Enter signup Deatails
-		objSign.clickSignup(prop.getProperty("Name"),prop.getProperty("Email"),prop.getProperty("Password"),prop.getProperty("Mobile")); 
+		objSign.clickSignup(prop.getProperty("Name1"),prop.getProperty("Email1"),prop.getProperty("Password1"),prop.getProperty("Mobile1")); 
 
 		System.out.println("Enter Name of the Doctor");
 		System.out.println("Entering a mail");

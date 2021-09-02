@@ -61,9 +61,19 @@ public class DoctorSignup extends TestBase {
 	public void doctormobile(String strentermobile) {
 
 		driver.findElement(By.name("mobile")).sendKeys(strentermobile);
-
-
+		
+	
 	}
+	
+	
+	public void verifybtn() {
+		
+		
+		//Click on verifybutton
+		driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div/div[1]/div/div/div[2]/div/div/div/div/div[4]/div[2]/button/span[1]")).click();
+		
+	}
+	
 
 
 
@@ -92,6 +102,10 @@ public class DoctorSignup extends TestBase {
 
 		//Enter Doctor PhoneNumber
 		this.doctormobile(strentermobile);
+		
+		
+		//Click on verifybutton
+		this.verifybtn();
 
 	}
 

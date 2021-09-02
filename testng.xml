@@ -8,10 +8,11 @@
 	<test name="Test">
 		<classes>
 			<class name="pages.TestBase" />
-		    <class name="test.DoctorsignupTest" />
-			<class name="test.DoctorLoginTest" />
+		    <class name="test.DoctorLoginTest" />
+			<!-- 
+			 <class name="test.DoctorsignupTest" />
 			<class name="test.admintest" />
-			<class name="test.supporttest" />
+			<class name="test.supporttest" />-->
 		</classes>
 	</test>
 	
