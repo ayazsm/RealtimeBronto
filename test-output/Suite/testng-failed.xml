@@ -15,13 +15,4 @@
       </class> <!-- test.DoctorLoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
-  <test thread-count="5" name="java(failed)">
-    <classes>
-      <class name="utils.SentEmail.EmailSend">
-        <methods>
-          <include name="sendemail"/>
-        </methods>
-      </class> <!-- utils.SentEmail.EmailSend -->
-    </classes>
-  </test> <!-- java(failed) -->
 </suite> <!-- Failed suite [Suite] -->

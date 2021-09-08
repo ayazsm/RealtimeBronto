@@ -37,11 +37,11 @@ public class EmailSend {
 		attachment3.setDescription("Screenshot1");
 		attachment3.setName("Screenshot1");
 
-		EmailAttachment attachment4 = new EmailAttachment();
-		attachment4.setPath("screenshots\\screenshot2.png");
-		attachment4.setDisposition(EmailAttachment.ATTACHMENT);
-		attachment4.setDescription("Screenshot2");
-		attachment4.setName("Screenshot2");
+//		EmailAttachment attachment4 = new EmailAttachment();
+//		attachment4.setPath("screenshots\\screenshot2.png");
+//		attachment4.setDisposition(EmailAttachment.ATTACHMENT);
+//		attachment4.setDescription("Screenshot2");
+//		attachment4.setName("Screenshot2");
 
 	
 //		EmailAttachment attachment5 = new EmailAttachment();
@@ -65,7 +65,7 @@ public class EmailSend {
 		email.attach(attachment1);
 		email.attach(attachment2);
 		email.attach(attachment3);
-		email.attach(attachment4);
+		//email.attach(attachment4);
 //		email.attach(attachment5);
 		email.send();
 		System.out.println("Mail sent");

@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" >
+<suite name="Suite">
 	<listeners>
 		<listener class-name="utils.Report.ExtentReporterNG" />
 	</listeners>
-
 	<test name="Test">
 		<classes>
-		<class name="pages.TestBase" />
-	    <class name="test.PatientLoginTest" />
-		<class name="test.DoctorLoginTest" /> 
-		<!--  <class name="test.DoctorsignupTest" /> 
-		<class name="test.admintest" />
-		 <class name="test.supporttest" /> -->
+			<class name="pages.TestBase" />
+			<class name="test.PatientLoginTest" />
+			<class name="test.DoctorLoginTest" />
+			<!-- <class name="test.DoctorsignupTest" /> <class name="test.admintest" 
+				/> <class name="test.supporttest" /> -->
+		</classes>
+	</test>
+
+
+	<test name="java">
+		<classes>
+			<class name="utils.SentEmail.EmailSend" />
 		</classes>
 	</test>
 
 
 
 
-	
+
 
 </suite> <!-- Suite -->
