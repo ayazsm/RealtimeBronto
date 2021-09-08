@@ -71,14 +71,5 @@ public class EmailSend {
 		System.out.println("Mail sent");
 
 	}
-   
-
-
-
-	
-	
-	
-	
-
-	
+   	
 }

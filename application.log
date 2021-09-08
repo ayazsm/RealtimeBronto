@@ -1,20 +1,28 @@
-2021-09-08 12:32:48,606  INFO [main] TestBase:44 - *****************************Starting Test Cases**************************
-2021-09-08 12:32:50,861  INFO [main] TestBase:63 - Launching chrome browser
-2021-09-08 12:32:59,491  INFO [main] TestBase:27 - Naviated to Bronto Home Page
-2021-09-08 12:32:59,558  INFO [main] TestBase:42 - Click on login/Register button
-2021-09-08 12:32:59,637  INFO [main] TestBase:51 - click login as patient 
-2021-09-08 12:32:59,766  INFO [main] TestBase:57 - Enter EmailId
-2021-09-08 12:32:59,836  INFO [main] TestBase:63 - Enter password
-2021-09-08 12:32:59,836  INFO [main] TestBase:70 - Click on login now
-2021-09-08 12:32:59,907  INFO [main] TestBase:72 - Patient login Test successfull
-2021-09-08 12:32:59,909  INFO [main] TestBase:81 - ***************************  Browser is closed  **********************************
-2021-09-08 12:33:05,022 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
-2021-09-08 12:33:05,023 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
-2021-09-08 12:33:05,024 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2021-09-08 12:33:05,025 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2021-09-08 12:33:05,025 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Codet/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2021-09-08 12:33:05,178 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
-2021-09-08 12:33:05,179 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
-2021-09-08 12:33:05,179 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2021-09-08 12:33:05,180 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2021-09-08 12:33:05,180 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Codet/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-09-08 12:57:44,905  INFO [main] TestBase:44 - *****************************Starting Test Cases**************************
+2021-09-08 12:57:49,376  INFO [main] TestBase:63 - Launching chrome browser
+2021-09-08 12:57:57,863  INFO [main] TestBase:27 - Naviated to Bronto Home Page
+2021-09-08 12:57:57,941  INFO [main] TestBase:42 - Click on login/Register button
+2021-09-08 12:57:58,011  INFO [main] TestBase:51 - click login as patient 
+2021-09-08 12:57:58,109  INFO [main] TestBase:57 - Enter EmailId
+2021-09-08 12:57:58,163  INFO [main] TestBase:63 - Enter password
+2021-09-08 12:57:58,163  INFO [main] TestBase:70 - Click on login now
+2021-09-08 12:57:58,204  INFO [main] TestBase:72 - Patient login Test successfull
+2021-09-08 12:57:58,217  INFO [main] TestBase:81 - ***************************  Browser is closed  **********************************
+2021-09-08 12:57:58,218  INFO [main] TestBase:44 - *****************************Starting Test Cases**************************
+2021-09-08 12:58:00,438  INFO [main] TestBase:63 - Launching chrome browser
+2021-09-08 12:58:11,330  INFO [main] TestBase:24 - Entering application URL
+2021-09-08 12:58:11,330  WARN [main] TestBase:25 - Hey this just a warning message
+2021-09-08 12:58:11,330 FATAL [main] TestBase:26 - Hey this is just fatal error message 
+2021-09-08 12:58:11,330 DEBUG [main] TestBase:27 - Hey this is debug message
+2021-09-08 12:58:11,512  INFO [main] TestBase:41 - Entering the email
+2021-09-08 12:58:29,048  INFO [main] TestBase:81 - ***************************  Browser is closed  **********************************
+2021-09-08 12:58:29,664 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-09-08 12:58:29,665 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-09-08 12:58:29,666 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-09-08 12:58:29,667 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-09-08 12:58:29,667 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Codet/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-09-08 12:58:29,925 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-09-08 12:58:29,925 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-09-08 12:58:29,925 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-09-08 12:58:29,926 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-09-08 12:58:29,926 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Codet/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="utils.Report.ExtentReporterNG"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="Test(failed)">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="test.Emailtest">
+      <class name="test.DoctorLoginTest">
         <methods>
+          <include name="test_DoctorProfilePage"/>
           <include name="initialize"/>
-          <include name="loginTest"/>
           <include name="TeardownTest"/>
         </methods>
-      </class> <!-- test.Emailtest -->
+      </class> <!-- test.DoctorLoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
+  <test thread-count="5" name="java(failed)">
+    <classes>
+      <class name="utils.SentEmail.EmailSend">
+        <methods>
+          <include name="sendemail"/>
+        </methods>
+      </class> <!-- utils.SentEmail.EmailSend -->
+    </classes>
+  </test> <!-- java(failed) -->
 </suite> <!-- Failed suite [Suite] -->

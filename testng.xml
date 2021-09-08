@@ -19,10 +19,6 @@
 
 
 
-	<test name="java">
-		<classes>
-			<class name="utils.SentEmail.EmailSend" />
-		</classes>
-	</test>
+	
 
 </suite> <!-- Suite -->
