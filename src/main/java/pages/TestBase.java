@@ -57,7 +57,7 @@ public class TestBase {
 //        DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 //        WebDriver driver = new RemoteWebDriver(serverurl,capabilities);
 //		//Chrome Driver For Linux
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Codet\\eclipse-workspace\\BrontoDoctor\\drivers\\ChromeDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "drivers\\ChromeDriver\\chromedriver.exe");
 		
 		driver = new ChromeDriver(); 
 		log.info("Launching chrome browser");
