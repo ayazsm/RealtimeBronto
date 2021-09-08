@@ -11,12 +11,16 @@ import org.openqa.selenium.TakesScreenshot;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
+import pages.DoctorAddingFees;
 import pages.DoctorLoginpage;
+import pages.MakeAppoinmentsPage;
 import pages.TestBase;
 
 public class DoctorLoginTest extends TestBase {
 	
 	DoctorLoginpage objLogin;
+	MakeAppoinmentsPage objappointment;
+	DoctorAddingFees objaddingFees;
 	
    @Test
 	public void test_DoctorProfilePage() throws IOException {
@@ -29,6 +33,8 @@ public class DoctorLoginTest extends TestBase {
 		//Login to Application
 		objLogin.loginToPage(prop.getProperty("uname"),prop.getProperty("pwd"));
 		
+		
+		
 		System.out.println("We are taking a Screenshot for Doctor Login page");
 		File src1 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src1, new File("screenshots//screenshot1.png"));
@@ -37,6 +43,18 @@ public class DoctorLoginTest extends TestBase {
 		Reporter.log("<img src=\"C:\\Users\\Codet\\eclipse-workspace\\BrontoDoctor\\screenshots\\screenshot1.png\"/>");
 		System.out.println("Doctor Entering a Valid EmailId");
 		System.out.println("Doctor Entering a Valid Password");
+		
+		//objappointment = new MakeAppoinmentsPage(driver);
+		//objappointment.makeAppointment(prop.getProperty("Timeinterval"),prop.getProperty("strenterstarttime"),prop.getProperty("strenterendtime"));
+		
+		
+		
+		//objappointment.makeAppointment(prop.getProperty("Timeinterval"),prop.getProperty("strtime")));
+		
+		
+		objaddingFees = new DoctorAddingFees(driver);
+		
+		objaddingFees.addingFEES(prop.getProperty("strVideoFeesdoctor"),prop.getProperty("strVideoFeesdoctordate"));
 		
 	}	
 }

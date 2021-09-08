@@ -40,7 +40,6 @@ public class DoctorLoginpage extends TestBase{
 		driver.findElement(By.name("email")).sendKeys(strenterEmail);
 		log.info("Entering the email");
 
-
 	}
 
 	//Enter Password
@@ -74,9 +73,10 @@ public class DoctorLoginpage extends TestBase{
 		this.enterPassword(strenterPassword);
 
 
+		
 		//Click Login button
 		this.clickOnLogin(); 
-
+		
 	}
 
 }

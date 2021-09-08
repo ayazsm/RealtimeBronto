@@ -6,31 +6,12 @@
   </listeners>
   <test parallel="tests" name="Test(failed)">
     <classes>
-      <class name="test.supporttest">
+      <class name="test.PatientLoginTest">
         <methods>
           <include name="initialize"/>
-          <include name="TeardownTest"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- test.supporttest -->
-      <class name="test.admintest">
-        <methods>
-          <include name="test_adminsupport"/>
-          <include name="initialize"/>
-          <include name="TeardownTest"/>
-        </methods>
-      </class> <!-- test.admintest -->
-      <class name="test.DoctorsignupTest">
-        <methods>
-          <include name="initialize"/>
-          <include name="TeardownTest"/>
-        </methods>
-      </class> <!-- test.DoctorsignupTest -->
-      <class name="test.DoctorLoginTest">
-        <methods>
-          <include name="initialize"/>
-          <include name="TeardownTest"/>
-        </methods>
-      </class> <!-- test.DoctorLoginTest -->
+      </class> <!-- test.PatientLoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
