@@ -6,13 +6,14 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="test.DoctorLoginTest">
+      <class name="test.PatientLoginTest">
         <methods>
-          <include name="test_DoctorProfilePage"/>
           <include name="initialize"/>
+          <include name="selectDateandconsultationtype"/>
           <include name="TeardownTest"/>
+          <include name="patientspersonalinfomation"/>
         </methods>
-      </class> <!-- test.DoctorLoginTest -->
+      </class> <!-- test.PatientLoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

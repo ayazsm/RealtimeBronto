@@ -61,7 +61,8 @@ public class EmailSend {
 		email.setFrom("ayazinfo13@gmail.com");
 		email.setSubject("Bronto Doctor login Extent Report ");
 		email.setMsg("Extent Reports and Screenshots");
-		email.addTo("naganjaneyulu.s@codetru.com");
+		email.addTo("ayazinfo13@gmail.com");
+		email.addCc("ayaz@codetru.com");
 		email.attach(attachment1);
 		email.attach(attachment2);
 		email.attach(attachment3);

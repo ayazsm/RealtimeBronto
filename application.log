@@ -1,28 +1,31 @@
-2021-09-08 17:50:58,084  INFO [main] TestBase:44 - *****************************Starting Test Cases**************************
-2021-09-08 17:51:01,875  INFO [main] TestBase:63 - Launching chrome browser
-2021-09-08 17:51:11,064  INFO [main] TestBase:27 - Naviated to Bronto Home Page
-2021-09-08 17:51:11,152  INFO [main] TestBase:42 - Click on login/Register button
-2021-09-08 17:51:11,204  INFO [main] TestBase:51 - click login as patient 
-2021-09-08 17:51:11,324  INFO [main] TestBase:57 - Enter EmailId
-2021-09-08 17:51:11,375  INFO [main] TestBase:63 - Enter password
-2021-09-08 17:51:11,376  INFO [main] TestBase:70 - Click on login now
-2021-09-08 17:51:11,441  INFO [main] TestBase:72 - Patient login Test successfull
-2021-09-08 17:51:11,459  INFO [main] TestBase:81 - ***************************  Browser is closed  **********************************
-2021-09-08 17:51:11,460  INFO [main] TestBase:44 - *****************************Starting Test Cases**************************
-2021-09-08 17:51:14,159  INFO [main] TestBase:63 - Launching chrome browser
-2021-09-08 17:51:25,971  INFO [main] TestBase:24 - Entering application URL
-2021-09-08 17:51:26,139  WARN [main] TestBase:25 - Hey this just a warning message
-2021-09-08 17:51:26,139 FATAL [main] TestBase:26 - Hey this is just fatal error message 
-2021-09-08 17:51:26,139 DEBUG [main] TestBase:27 - Hey this is debug message
-2021-09-08 17:51:26,311  INFO [main] TestBase:41 - Entering the email
-2021-09-08 17:51:41,973  INFO [main] TestBase:81 - ***************************  Browser is closed  **********************************
-2021-09-08 17:51:47,270 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
-2021-09-08 17:51:47,271 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
-2021-09-08 17:51:47,273 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2021-09-08 17:51:47,274 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2021-09-08 17:51:47,274 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Codet/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2021-09-08 17:51:47,503 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
-2021-09-08 17:51:47,503 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
-2021-09-08 17:51:47,503 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2021-09-08 17:51:47,504 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2021-09-08 17:51:47,504 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Codet/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-09-09 17:11:58,805  INFO [main] TestBase:44 - *****************************Starting Test Cases**************************
+2021-09-09 17:12:02,356  INFO [main] TestBase:63 - Launching chrome browser
+2021-09-09 17:12:13,006  INFO [main] TestBase:27 - Naviated to Bronto Home Page
+2021-09-09 17:12:13,075  INFO [main] TestBase:42 - Click on login/Register button
+2021-09-09 17:12:13,166  INFO [main] TestBase:51 - click login as patient 
+2021-09-09 17:12:13,265  INFO [main] TestBase:57 - Enter EmailId
+2021-09-09 17:12:13,316  INFO [main] TestBase:63 - Enter password
+2021-09-09 17:12:13,316  INFO [main] TestBase:70 - Click on login now
+2021-09-09 17:12:13,369  INFO [main] TestBase:72 - Patient login Test successfull
+2021-09-09 17:12:13,930  INFO [main] TestBase:20 - Click on Book Appointment
+2021-09-09 17:12:14,014  INFO [main] TestBase:22 - Enter the which location you want....!!!
+2021-09-09 17:12:14,088  INFO [main] TestBase:29 - Enter the which Doctor name....!!!
+2021-09-09 17:12:14,143  INFO [main] TestBase:36 - click on  Search Button....!!!
+2021-09-09 17:12:14,828  INFO [main] TestBase:22 - Patient viewing Doctor profile by clicking Book Appointmetn....!!!
+2021-09-09 17:12:15,795  INFO [main] TestBase:23 - Click on Date....!!!
+2021-09-09 17:12:15,934  INFO [main] TestBase:32 - Click on Time....!!!
+2021-09-09 17:12:16,004  INFO [main] TestBase:44 - click on video consultaion...!!!
+2021-09-09 17:12:16,255  INFO [main] TestBase:20 - click on Self Button .....!!!!
+2021-09-09 17:12:16,378  INFO [main] TestBase:27 - Patient enter his symptoms
+2021-09-09 17:12:16,422  INFO [main] TestBase:44 - After Click on payment Appointment is Booked  with the doctor....!!!
+2021-09-09 17:12:16,423  INFO [main] TestBase:81 - ***************************  Browser is closed  **********************************
+2021-09-09 17:12:16,859 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-09-09 17:12:16,860 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-09-09 17:12:16,861 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-09-09 17:12:16,861 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-09-09 17:12:16,862 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Codet/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-09-09 17:12:17,023 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-09-09 17:12:17,024 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-09-09 17:12:17,024 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-09-09 17:12:17,024 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-09-09 17:12:17,024 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Codet/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

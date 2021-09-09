@@ -8,22 +8,11 @@
 		<classes>
 			<class name="pages.TestBase" />
 			<class name="test.PatientLoginTest" />
-			<class name="test.DoctorLoginTest" />
-			<!-- <class name="test.DoctorsignupTest" /> <class name="test.admintest" 
+			<!--<class name="test.DoctorLoginTest" />
+			 <class name="test.DoctorsignupTest" /> <class name="test.admintest" 
 				/> <class name="test.supporttest" /> -->
 		</classes>
 	</test>
-
-
-	<test name="java">
-		<classes>
-			<class name="utils.SentEmail.EmailSend" />
-		</classes>
-	</test>
-
-
-
-
 
 
 </suite> <!-- Suite -->
